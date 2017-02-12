@@ -1,0 +1,14 @@
+{
+  "name": "jsrecordstore",
+  "version": "1.0.0",
+  "description": "java script record store week10 weekend homework for codelcan",
+  "main": "record_spec.js",
+  "scripts": {
+    "test": "mocha record_spec.js record_store_spec.js customer_spec.js"
+  },
+  "author": " (c)",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
