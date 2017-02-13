@@ -23,14 +23,17 @@ Customer.prototype = {
 
 // Part C -- The RecordCollector shouldn't be able to buy a Record if he can't afford it.
   checkIfSufficientFunds: function(requestedAmount) {
-    if(requestedAmount <= this.wallet) {
-      return true; 
-      }
-    else
-      { 
-      return false;
-      }
+    return (requestedAmount <= this.wallet)? true : false;
+
+  //   if(requestedAmount <= this.wallet) {
+  //     return true; 
+  //     }
+  //   else
+  //     { 
+  //     return false;
+  //     }
   }
+
 };
 
 module.exports = Customer;
